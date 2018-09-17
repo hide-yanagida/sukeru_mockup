@@ -1,3 +1,3 @@
-# SUKERU Mockup
+# SUKERUのモックアップ
 
 appフォルダ内で作業しています。
