@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link href="../docs/assets/css/demo.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="dist/favicon.ico">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-inverse navbar-embossed navbar-expand-lg" role="navigation">
+            <a class="navbar-brand" href="#">SUKERU</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-01"></button>
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+              <ul class="nav navbar-nav mr-auto">
+                <li><a href="#fakelink">Top<span class="navbar-unread">1</span></a></li>
+                <li><a href="#fakelink">Post</a></li>
+                <li><a href="#fakelink">Logout</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /navbar -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="demo-panel-title">場所</h3>
+          <select class="form-control select select-primary" data-toggle="select">
+            <option value="0">北海道</option>
+            <option value="1">青森県</option>
+            <option value="2" selected>岩手県</option>
+            <option value="3">秋田県</option>
+            <option value="4">宮城県</option>
+            <option value="5">福島県</option>
+          </select>
+        </div> <!-- /.col -->
+
+        <div class="col">
+          <h3 class="demo-panel-title">日にち</h3>
+          <div class="form-group has-success">
+            <input type="text" value="" placeholder="日にち" class="form-control" />
+            <span class="input-icon fui-check-inverted"></span>
+          </div>
+        </div> <!-- /.col -->
+
+        <div class="col">
+          <h3 class="demo-panel-title">時間帯</h3>
+          <select class="form-control select select-primary" data-toggle="select">
+            <option value="0">0時</option>
+            <option value="1">1時</option>
+            <option value="2">2時</option>
+            <option value="3">3時</option>
+            <option value="4">4時</option>
+            <option value="5" selected>5時</option>
+          </select>
+        </div> <!-- /.col -->
+
+        <div class="col">
+          <h3 class="demo-panel-title">絞り込み</h3>
+          <a href="#fakelink" class="btn btn-primary"><span class="fui-search"></span>Search</a>
+        </div> <!-- /.col -->
+      </div>
+    </div>
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 4 requires Popper.js -->
+    <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
+    <script src="scripts/flat-ui.js"></script>
+    <script src="../docs/assets/js/application.js"></script>
+  </body>
+</html>
